@@ -22,10 +22,13 @@ This repo hosts the code for the following networks:
 }
 ```
 ```bash
-@article{guo2020confidence,
-  title={Confidence-guided Lesion Mask-based Simultaneous Synthesis of Anatomic and Molecular MR Images in Patients with Post-treatment Malignant Gliomas},
-  author={Guo, Pengfei and Wang, Puyang and Yasarla, Rajeev and Zhou, Jinyuan and Patel, Vishal M and Jiang, Shanshan},
-  journal={arXiv preprint arXiv:2008.02859},
-  year={2020}
-}
+@ARTICLE{9302607,
+  author={P. {Guo} and P. {Wang} and R. {Yasarla} and J. {Zhou} and V. M. {Patel} and S. {Jiang}},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Anatomic and Molecular MR Image Synthesis Using Confidence Guided CNNs}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2020.3046460}}
 ```
