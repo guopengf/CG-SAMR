@@ -79,9 +79,9 @@ def define_G(input_nc, output_nc, ngf, netG, n_downsample_global=3, n_blocks_glo
     norm_layer = get_norm_layer(norm_type=norm)     
     if netG == 'global':    
         netG = GlobalGenerator(input_nc, output_nc, ngf, n_downsample_global, n_blocks_global, norm_layer)
-    elif netG == 'global_with_stretch_atlas':
+    elif netG == 'SAMR':
         netG = GlobalGenerator_stretch_atlas(input_nc, output_nc, ngf, n_downsample_global, n_blocks_global, norm_layer)
-    elif netG == 'global_with_stretch_atlas_cguide':
+    elif netG == 'CG_SAMR':
         netG = GlobalGenerator_stretch_atlas_cguide(input_nc, output_nc, ngf, n_downsample_global, n_blocks_global, norm_layer)
     else:
         raise('generator not implemented!')
