@@ -7,7 +7,7 @@ Journal Extension:
 
 # About this repo:
 
-This repo hosts the code for the following networks:
+This repo hosts the code for the CG-SAMR and SAMR
 
 # Citation:
 
